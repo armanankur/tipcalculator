@@ -1,0 +1,137 @@
+body{
+    font-family: roboto;
+    background-color:  #AD133A;
+}
+#container{
+    height: 500px;
+  width: 350px;
+  margin: 100px auto;
+  background: white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px; 
+
+}
+h1{
+    margin: 0px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-family:  Helvetica;
+    font-size: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+#calculator{
+    text-align:center;
+}
+p {
+    padding-left: 20px;
+  }
+  
+  input {
+    padding-left: 15px;
+
+  }
+  
+  #billamt {
+    font-size: 14px;
+    color: black;
+    background-color: whitesmoke;
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 14px;
+    border-radius: 20px;
+  }
+
+  
+  #billamt:focus {
+    background: #fff;
+    border: 2px solid #249ff1;
+    outline: none;
+  }
+  
+  #peopleamt {
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    margin-left: 70px;
+    color:black;
+    background-color: #f7f7f7;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+  #peopleamt:focus{
+    border: 2px solid #249ff1;
+    outline: none;
+  }
+  .dollarSign {
+    margin-left: 10px;
+  }
+  
+  #service{
+    padding: 5px 5px 8px 8px;
+   width: 60%;
+    margin-left: 20px;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+  #service option:hover{
+      background-color: #249ff1
+  }
+  
+  button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-left:80px;
+    margin-top: 35px;
+    background: purple;
+    border-radius: 5px;
+    width: 215px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  button:hover {
+    background:#AD133A;
+    border-bottom:gray;
+    color:white;
+    
+  }
+  
+  button:active {
+    position: relative;
+    top: 1px;
+  }
+  button:focus{
+    border: 2px solid #249ff1;
+    outline: none;
+  }
+  
+  #totaltip {
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  #totaltip:before {
+    content: "TIP AMOUNT";
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+  }
+  
+  #totalTip sup {
+    font-size: 20px;
+    top: -18px;
+  }
+  
+  #totalTip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+  }
